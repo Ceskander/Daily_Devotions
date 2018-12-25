@@ -1,0 +1,51 @@
+/* Clone the look and feel of "chrome://" pages. */
+body {
+  margin: 10px;
+  font: 84% Arial, sans-serif
+}
+
+h2 {
+  border-top: 1px solid #9cc2ef;
+  background-color: #ebeff9;
+  padding: 3px 5px;
+  font-size: 100%
+}
+
+/*added for current time*/
+h1{
+    font-size: 24px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
+
+
+#currentTime {
+    font-size: 24px;
+    font-family: 'Oswald';
+    font-weight: 100;
+    color: black;
+}
+
+
+/* added for options to make alarm at right time*/
+ #jsalarmclock{
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#jsalarmclock div{
+    margin-bottom: 0.8em;
+}
+
+#jsalarmclock div.leftcolumn{
+    float: left;
+    width: 150px;
+    font-size: 13px;
+    background-color: lightyellow;
+    clear: left;
+}
+
+#jsalarmclock span{
+    margin-right: 5px;
+}

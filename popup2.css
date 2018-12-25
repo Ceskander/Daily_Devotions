@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("download.jpg");
+}
+
+.popupContainerDiv{
+    width: 260px;
+    height: 30px;
+}
+
+h2{
+    text-transform: uppercase;
+    color: #654321;
+    font-size: 32px;
+    font-family: 'Oswald', Arial, Helvetica, Sans-serif;
+}
+
+h3{
+    font-size: 32px;
+    font-family: 'Oswald', Arial, Helvetica, Sans-serif;
+    color:white;
+}
+
+a{
+    font-size: 16px;
+    font-family: 'Oswald', Arial, Helvetica, Sans-serif;
+    color:blue;
+}

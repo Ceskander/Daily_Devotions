@@ -1,0 +1,36 @@
+{
+    "name": "DT Reminder",
+    "version": "1.0",
+      "manifest_version": 2,
+    "description": "Reminder to do daily devotions and provides links that may help in completing them.",
+    
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    
+    //added to inject js don't know if needed
+    /*"content_scripts": [
+        {
+            "matches":[
+            "<all_urls>"],
+            "js": ["background.js"]
+                    }
+                        ],*/
+    
+    "browser_action": {
+        "default_icon": "DT_icon.png",
+         "default_popup": "popup.html"
+    },
+    
+    "options_page": "options.html",
+    //added launch so that when user clicks on icon it opens a tab to load a link
+    
+    "permissions": [
+    "http://*/*",
+     "https://*/*",
+     "alarms",
+    "notifications"
+                    ]
+    
+    }
